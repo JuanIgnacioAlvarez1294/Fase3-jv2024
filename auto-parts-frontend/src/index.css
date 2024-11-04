@@ -1,0 +1,39 @@
+/* src/index.css */
+
+/* Resto de tus estilos anteriores */
+
+form {
+    display: flex;
+    flex-direction: column; /* Colocar los elementos en columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente si el contenedor tiene altura */
+    margin: auto; /* Centrar el formulario en la página */
+    padding: 20px;
+    border: 1px solid #ddd; /* Opcional: agregar un borde */
+    border-radius: 5px; /* Bordes redondeados para el formulario */
+    background-color: #fff; /* Fondo blanco para el formulario */
+    width: 300px; /* Establecer un ancho fijo para el formulario */
+}
+
+input {
+    margin: 10px 0; /* Espaciado vertical entre los campos de entrada */
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Hacer que los campos de entrada ocupen el ancho completo del formulario */
+    border: 1px solid #ccc; /* Borde de los campos de entrada */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+    margin-top: 10px; /* Espaciado superior para el botón */
+    padding: 10px; /* Espaciado interno del botón */
+    background-color: #007bff; /* Color celeste */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color celeste más oscuro al pasar el ratón */
+}
